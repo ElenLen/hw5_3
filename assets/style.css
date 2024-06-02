@@ -1,4 +1,61 @@
-.image{
-    width: 50px;
-    height: 50px;
+.head {
+    display: flex;
+    background-color: rgb(86, 202, 202);
+    justify-content: left;
+    align-items: center;
+}
+.a{
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+    background-color:  rgb(159, 233, 245);    
+    flex-direction: column;
+}
+/* заголовок */
+.h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+/* подзаголовок */
+.h2{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+/* блок1 */
+.sel1{
+    display: flex;
+    /* background-color: rgb(234, 234, 97); */
+    justify-content: space-evenly;
+}
+/* блок 2 */
+.sel2{
+    display: flex;
+    /* background-color: rgb(129, 240, 117); */
+    justify-content: space-evenly;
+}
+/* блок 3 */
+.sel3{
+    display: flex;
+    /* background-color: rgb(159, 233, 245); */
+    justify-content: space-evenly;
+}
+/* параметры каринок */
+.img{
+    border: 5px solid rgb(233, 243, 45);
+    margin: 10px;
+    width: 200px;
+}
+/* при наведении рамка меняет цвет */
+.img:hover{
+    border: 5px solid red;
+}
+/* подвал */
+.footr{
+    display: flex;
+    background-color: rgb(195, 203, 246);
+    flex-direction: row;
+    justify-content: space-evenly;
 }
